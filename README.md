@@ -4,6 +4,13 @@ This is my *first* Jupyter Notebook in VSCodium, I'm excited to see what it'll l
 
 I'll be going through Python's [sqlite3 tutorial](https://docs.python.org/3/library/sqlite3.html) within this notebook.
 
+### Generating README.md
+I installed the [`nbconvert` package](https://nbconvert.readthedocs.io/en/latest/index.html) and ran it against my Jupyter notebook!  This is the resulting file (although this section is hand-inserted :yum:)
+
+```
+jupyter nbconvert tutorial_sqlite3.ipynb --to markdown --output README.md
+```
+
 
 ## Tutorial Prerequisites
 
